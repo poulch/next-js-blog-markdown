@@ -1,4 +1,4 @@
-import Head from 'next/Head';
+import Head from 'next/head';
 import Layout from '../../components/Layout';
 import { getAllArticles, getArticleBySlug } from '../../services/articles';
 

@@ -1,7 +1,7 @@
-import Head from 'next/Head';
+import Head from 'next/head';
 import Layout from '../components/Layout';
-import Image from 'next/Image';
-import Link from 'next/Link';
+import Image from 'next/image';
+import Link from 'next/link';
 import { getAllArticles } from '../services/articles';
 
 export const getStaticProps = () => {
